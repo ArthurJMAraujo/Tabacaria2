@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&family=Staatliches&family=Yanone+Kaffeesatz:wght@200;300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Comforter+Brush&display=swap');
+
+:root {
+    --font1: 'Yanone Kaffeesatz', sans-serif;
+    --font2: 'Comforter Brush', cursive;
+    --font3: 'Cinzel', serif;
+    --font4: 'Comforter Brush', cursive;
+}
+
+body{
+    background-color: rgba(21, 21, 24, 0.76);
+    margin: 0px;  
+    padding: 0px; 
+}
+
+header {
+    background-color: rgba(5, 5, 20, 0.781);
+    color: white;
+    font-family: var(--font3);
+    padding: 0em 2em 0em 4em;
+    
+  
+
+    
+}
+
+header > h1 {
+    font-size: 2em;
+    margin:0em;
+    padding-top:1em;
+    
+}
+
+header > p {
+    padding-left: 6em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+
+}
+
+nav {
+    
+    text-align:  right;
+    padding-bottom: 1em;
+    padding-top: 0em;
+    padding-right: 4em;
+    
+    
+
+}
+ 
+nav > a {
+    padding-left: 1em;
+    color: white;
+    text-decoration: none;
+}
+nav > a:hover {
+ color: rgb(141, 66, 12);
+ text-shadow: 1px rgba(0, 0, 0, 0.63);
+}
+
+section {
+    font-family: var(--font3);
+}
+
+section > h2{
+    background-color:rgba(5, 5, 20, 0.781) ;
+    color: white;
+    padding: 2em;
+    margin: 0em;
+
+}
+
+section.img { 
+    min-height: 10, 0vh;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.548);
+ }
+
+
+section#interno {
+
+     background-image: url('../projeto-araujo/img/img01.jpg');
+        
+ }
+
+ section#externo {
+    background-image: url('../projeto-araujo/img/img02.jpg');
+ }
+
+ section#bar {
+     background-image: url(../projeto-araujo/img/img3.jpg);
+
+ }
+ section#umidor {
+     background-image: url(../projeto-araujo/img/img4.jpg);
+ }
+section > h3 {
+    margin: 0em;
+    padding: 4em;
+    color: white;
+    text-shadow: 3px rgba(0, 0, 0, 0.705);
+    background-color: rgba(0, 0, 0, 0.219);
+    text-align: center ;
+    background-position: center;
+
+}
+
+ footer {
+     background-color: rgba(5, 5, 20, 0.781);
+     padding: 1em;
+     color: white;
+     text-align: center;
+
+ }
